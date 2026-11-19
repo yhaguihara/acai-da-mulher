@@ -1,10 +1,10 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#fff6df" />
-    <title>AÃ§aÃ­ da Mulher</title>
+    <title>Açaí da Mulher</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
@@ -18,27 +18,27 @@
           ><button
             class="gear"
             onclick="show('settings')"
-            aria-label="ConfiguraÃ§Ãµes"
+            aria-label="Configurações"
           >
-            âš™
+            ⚙
           </button>
         </div>
         <header class="brand">
-          <div class="logo">ðŸ«ðŸ¥£</div>
-          <h1>AÃ§aÃ­ da Mulher</h1>
+          <div class="logo">🫐🥣</div>
+          <h1>Açaí da Mulher</h1>
           <div class="rule"></div>
         </header>
         <button class="call" onclick="call190()">
-          <span class="phone">â˜Ž</span
+          <span class="phone">☎</span
           ><span
-            ><strong>AÃ§aÃ­ tradicional</strong
+            ><strong>Açaí tradicional</strong
             ><small class="sensitive-label">Ligar 190</small
-            ><small class="safe-label">PromoÃ§Ã£o do dia</small></span
+            ><small class="safe-label">Promoção do dia</small></span
           >
         </button>
         <button class="option option-denounce" onclick="show('order')">
           <span class="tile"
-            ><span class="safe-emoji">ðŸ“</span
+            ><span class="safe-emoji">🍓</span
             ><svg
               class="serious-icon"
               viewBox="0 0 64 64"
@@ -47,16 +47,16 @@
               <path d="M32 7 58 55H6L32 7Z" />
               <path d="M32 23v15M32 47h.1" /></svg></span
           ><span
-            ><strong class="safe-label">AÃ§aÃ­ com morango</strong
-            ><strong class="sensitive-label">Denunciar violÃªncia</strong
+            ><strong class="safe-label">Açaí com morango</strong
+            ><strong class="sensitive-label">Denunciar violência</strong
             ><small class="sensitive-label"
-              >Registrar uma situaÃ§Ã£o de violÃªncia</small
+              >Registrar uma situação de violência</small
             ><small class="safe-label">Especial da casa</small></span
           >
         </button>
         <button class="option option-locate" onclick="show('units')">
           <span class="tile"
-            ><span class="safe-emoji">ðŸ«</span
+            ><span class="safe-emoji">🫐</span
             ><svg
               class="serious-icon"
               viewBox="0 0 64 64"
@@ -65,17 +65,17 @@
               <circle cx="28" cy="28" r="19" />
               <path d="m42 42 15 15" /></svg></span
           ><span
-            ><strong class="safe-label">AÃ§aÃ­ com banana</strong
+            ><strong class="safe-label">Açaí com banana</strong
             ><strong class="sensitive-label"
-              >Localizar serviÃ§os de apoio</strong
+              >Localizar serviços de apoio</strong
             ><small class="sensitive-label"
-              >Encontrar pontos de atendimento prÃ³ximos</small
+              >Encontrar pontos de atendimento próximos</small
             ><small class="safe-label">Mais pedidos</small></span
           >
         </button>
         <button class="option option-help" onclick="show('units')">
           <span class="tile"
-            ><span class="safe-emoji">ðŸŒ</span
+            ><span class="safe-emoji">🍌</span
             ><svg
               class="serious-icon"
               viewBox="0 0 64 64"
@@ -86,50 +86,50 @@
               />
               <path d="m21 32 7 7 15-16" /></svg></span
           ><span
-            ><strong class="safe-label">AÃ§aÃ­ especial</strong
+            ><strong class="safe-label">Açaí especial</strong
             ><strong class="sensitive-label"
-              >Encontrar ajuda e proteÃ§Ã£o</strong
+              >Encontrar ajuda e proteção</strong
             ><small class="sensitive-label"
-              >Acessar acolhimento e orientaÃ§Ã£o</small
+              >Acessar acolhimento e orientação</small
             ><small class="safe-label">Combos especiais</small></span
           >
         </button>
         <p class="notice">
           Se estiver em perigo imediato, procure um local seguro e ligue 190. O
-          Ligue 180 oferece orientaÃ§Ã£o e acolhimento.
+          Ligue 180 oferece orientação e acolhimento.
         </p>
       </section>
       <section id="order" class="screen">
         <div class="top">
-          <button class="back" onclick="show('home')">â€¹</button><span> </span>
+          <button class="back" onclick="show('home')">‹</button><span> </span>
         </div>
         <header class="hero">
-          <div class="emoji">ðŸ¥£</div>
+          <div class="emoji">🥣</div>
           <h2>
             <span class="sensitive-label">Denunciar</span
-            ><span class="safe-label">Montar aÃ§aÃ­</span>
+            ><span class="safe-label">Montar açaí</span>
           </h2>
           <div class="rule"></div>
         </header>
         <form id="helpForm" onsubmit="submitHelp(event)">
           <div class="panel">
             <div class="field-title">
-              <span class="field-icon">ðŸ“</span
-              ><span class="sensitive-label">Relato da situaÃ§Ã£o</span
-              ><span class="safe-label">ObservaÃ§Ãµes do pedido</span>
+              <span class="field-icon">📝</span
+              ><span class="sensitive-label">Relato da situação</span
+              ><span class="safe-label">Observações do pedido</span>
             </div>
             <textarea
               class="field"
               id="notes"
-              placeholder="Conte o que estÃ¡ acontecendo..."
-              aria-label="Relato da situaÃ§Ã£o"
+              placeholder="Conte o que está acontecendo..."
+              aria-label="Relato da situação"
             ></textarea>
           </div>
           <div class="panel">
             <div class="field-title">
-              <span class="field-icon">ðŸ“</span
+              <span class="field-icon">📍</span
               ><span class="sensitive-label">Local (opcional)</span
-              ><span class="safe-label">EndereÃ§o de entrega</span>
+              ><span class="safe-label">Endereço de entrega</span>
             </div>
             <input
               class="field"
@@ -141,7 +141,7 @@
           <div class="panel">
             <label class="anon"
               ><input type="checkbox" id="anonymous" /><span
-                >ðŸ”’ DenÃºncia anÃ´nima (sem identificaÃ§Ã£o)</span
+                >🔒 Denúncia anônima (sem identificação)</span
               ></label
             >
           </div>
@@ -152,33 +152,33 @@
           </button>
         </form>
         <button class="redwide" onclick="call190()">
-          â˜Žã€€<span class="sensitive-label"
-            >AÃ§aÃ­ tradicional - Ligar 190</span
+          ☎　<span class="sensitive-label"
+            >Açaí tradicional - Ligar 190</span
           ><span class="safe-label">Falar com atendimento</span>
         </button>
         <p class="notice">
-          Este protÃ³tipo nÃ£o envia denÃºncias nem armazena seus dados. Em uma
-          situaÃ§Ã£o real, use canais oficiais e um dispositivo seguro.
+          Este protótipo não envia denúncias nem armazena seus dados. Em uma
+          situação real, use canais oficiais e um dispositivo seguro.
         </p>
       </section>
       <section id="units" class="screen">
         <div class="top">
-          <button class="back" onclick="show('home')">â€¹</button>
+          <button class="back" onclick="show('home')">‹</button>
         </div>
         <header class="hero">
-          <div class="emoji">ðŸ“¡</div>
+          <div class="emoji">📡</div>
           <h2>
             <span class="safe-label">Radar de entregas</span
-            ><span class="sensitive-label">Radar de serviÃ§os de apoio</span>
+            ><span class="sensitive-label">Radar de serviços de apoio</span>
           </h2>
           <div class="rule"></div>
         </header>
         <p class="sub">
           <span class="sensitive-label"
-            >Filtre os pontos de atendimento e abra a localizaÃ§Ã£o no
+            >Filtre os pontos de atendimento e abra a localização no
             mapa.</span
           ><span class="safe-label"
-            >Veja os pontos disponÃ­veis na regiÃ£o.</span
+            >Veja os pontos disponíveis na região.</span
           >
         </p>
         <div class="filter-row" role="group" aria-label="Filtrar locais">
@@ -263,9 +263,9 @@
                 <text x="84" y="12">R. 1</text>
                 <text x="234" y="12">R. 2</text>
                 <text x="326" y="12">R. 3</text>
-                <text x="29" y="38">PRAÃ‡A</text>
+                <text x="29" y="38">PRAÇA</text>
                 <text x="260" y="42">PARQUE</text>
-                <text x="239" y="255">ÃREA VERDE</text>
+                <text x="239" y="255">ÁREA VERDE</text>
               </g>
               <g class="map-pin" transform="translate(119 126)">
                 <path
@@ -292,13 +292,13 @@
             <div class="radar-sweep"></div>
             <span
               class="radar-location"
-              title="LocalizaÃ§Ã£o ilustrativa"
+              title="Localização ilustrativa"
             ></span>
           </div>
           <div class="radar-caption">
-            <strong>Mapa de serviÃ§os prÃ³ximos</strong
+            <strong>Mapa de serviços próximos</strong
             ><small
-              >Visual ilustrativo â€” os marcadores nÃ£o sÃ£o endereÃ§os
+              >Visual ilustrativo — os marcadores não são endereços
               reais</small
             >
           </div>
@@ -310,7 +310,7 @@
         </div>
         <div id="placeList">
           <div class="panel unit place-card" data-kind="delegacia">
-            <div class="place-symbol red">âœš</div>
+            <div class="place-symbol red">✚</div>
             <div>
               <h3>Delegacia da Mulher</h3>
               <p>Atendimento policial especializado</p>
@@ -325,10 +325,10 @@
             </div>
           </div>
           <div class="panel unit place-card" data-kind="ong">
-            <div class="place-symbol blue">â™¡</div>
+            <div class="place-symbol blue">♡</div>
             <div>
               <h3>ONGs de apoio</h3>
-              <p>Acolhimento, orientaÃ§Ã£o e suporte</p>
+              <p>Acolhimento, orientação e suporte</p>
               <div class="actions">
                 <button
                   class="smallbtn"
@@ -340,10 +340,10 @@
             </div>
           </div>
           <div class="panel unit place-card" data-kind="casa">
-            <div class="place-symbol green">âŒ‚</div>
+            <div class="place-symbol green">⌂</div>
             <div>
               <h3>Casa da Mulher</h3>
-              <p>ServiÃ§os integrados de atendimento</p>
+              <p>Serviços integrados de atendimento</p>
               <div class="actions">
                 <button class="smallbtn" onclick="mapSearch('Casa da Mulher')">
                   Ver no mapa
@@ -353,20 +353,20 @@
           </div>
         </div>
         <p class="notice">
-          O radar Ã© demonstrativo. Os pontos nÃ£o representam endereÃ§os em
-          tempo real; use â€œVer no mapaâ€ para pesquisar serviÃ§os prÃ³ximos.
+          O radar é demonstrativo. Os pontos não representam endereços em
+          tempo real; use “Ver no mapa” para pesquisar serviços próximos.
         </p>
         <button class="redwide" onclick="call190()">
-          â˜Žã€€<span class="sensitive-label">Falar com atendimento</span
+          ☎　<span class="sensitive-label">Falar com atendimento</span
           ><span class="safe-label">Contato da loja</span>
         </button>
       </section>
       <section id="messages" class="screen">
         <div class="top">
-          <button class="back" onclick="show('home')">â€¹</button>
+          <button class="back" onclick="show('home')">‹</button>
         </div>
         <header class="hero">
-          <div class="emoji">ðŸ’¬</div>
+          <div class="emoji">💬</div>
           <h2>
             <span class="sensitive-label">Mensagens do atendimento</span
             ><span class="safe-label">Chat do pedido</span>
@@ -377,20 +377,20 @@
           <span class="status-dot"></span
           ><span class="sensitive-label">Canal de acolhimento</span
           ><span class="safe-label">Atendimento da loja</span>
-          <small>Â· DemonstraÃ§Ã£o</small>
+          <small>· Demonstração</small>
         </div>
         <div class="chat-window" id="chatWindow" aria-live="polite">
           <div class="chat-bubble received">
             <strong>Atendimento</strong>
             <p>
-              OlÃ¡. VocÃª estÃ¡ em um espaÃ§o de conversa. Como podemos ajudar?
+              Olá. Você está em um espaço de conversa. Como podemos ajudar?
             </p>
-            <small>Mensagem automÃ¡tica</small>
+            <small>Mensagem automática</small>
           </div>
           <div class="chat-bubble sent" id="reportMessage">
-            <strong>VocÃª</strong>
+            <strong>Você</strong>
             <p id="reportMessageText">
-              Sua mensagem aparecerÃ¡ aqui apÃ³s o envio do relato.
+              Sua mensagem aparecerá aqui após o envio do relato.
             </p>
             <small>Relato inicial</small>
           </div>
@@ -406,22 +406,22 @@
           ><button class="primary" type="submit">Enviar</button>
         </form>
         <p class="notice">
-          Este chat Ã© apenas um protÃ³tipo: as mensagens ficam nesta tela
-          durante a sessÃ£o e nÃ£o sÃ£o enviadas a uma equipe real. Se houver
-          perigo imediato, ligue 190. O Ligue 180 oferece orientaÃ§Ã£o.
+          Este chat é apenas um protótipo: as mensagens ficam nesta tela
+          durante a sessão e não são enviadas a uma equipe real. Se houver
+          perigo imediato, ligue 190. O Ligue 180 oferece orientação.
         </p>
       </section>
       <section id="settings" class="screen">
         <div class="top">
-          <button class="back" onclick="show('home')">â€¹</button>
+          <button class="back" onclick="show('home')">‹</button>
         </div>
         <header class="hero">
-          <div class="emoji">âš™ï¸</div>
-          <h2>ConfiguraÃ§Ãµes</h2>
+          <div class="emoji">⚙️</div>
+          <h2>Configurações</h2>
           <div class="rule"></div>
         </header>
         <div class="panel">
-          <h3>Privacidade e seguranÃ§a</h3>
+          <h3>Privacidade e segurança</h3>
           <div class="setting-row">
             <span id="censorLabel">Desativar o modo censura</span
             ><label class="switch"
@@ -434,8 +434,8 @@
             ></label>
           </div>
           <p class="muted-help">
-            Quando ativado, os textos relacionados a denÃºncia e ajuda ficam
-            disfarÃ§ados como opÃ§Ãµes comuns da loja de aÃ§aÃ­.
+            Quando ativado, os textos relacionados a denúncia e ajuda ficam
+            disfarçados como opções comuns da loja de açaí.
           </p>
         </div>
         <div class="panel">
@@ -453,14 +453,14 @@
           </div>
           <p class="muted-help">
             Ative para solicitar uma senha sempre que o site for aberto em uma
-            nova sessÃ£o.
+            nova sessão.
           </p>
           <div id="passwordFields" class="hidden">
             <input
               class="field"
               id="newPassword"
               type="password"
-              placeholder="Criar senha (mÃ­nimo 4 caracteres)"
+              placeholder="Criar senha (mínimo 4 caracteres)"
               autocomplete="new-password"
             /><input
               class="field"
@@ -478,8 +478,8 @@
             </button>
           </div>
           <p class="muted-help">
-            A senha fica salva apenas neste navegador. Esta proteÃ§Ã£o Ã©
-            demonstrativa e nÃ£o substitui autenticaÃ§Ã£o segura em um servidor.
+            A senha fica salva apenas neste navegador. Esta proteção é
+            demonstrativa e não substitui autenticação segura em um servidor.
           </p>
         </div>
         <div class="panel">
@@ -487,12 +487,12 @@
             Sair rapidamente
           </button>
         </div>
-        <button class="redwide" onclick="call190()">â˜Žã€€Ligar 190</button>
+        <button class="redwide" onclick="call190()">☎　Ligar 190</button>
       </section>
-      <nav class="bottom" aria-label="NavegaÃ§Ã£o principal">
+      <nav class="bottom" aria-label="Navegação principal">
         <button class="nav active" data-screen="home" onclick="show('home')">
           <span class="nav-icon"
-            ><span class="safe-nav-icon">ðŸ«</span
+            ><span class="safe-nav-icon">🫐</span
             ><svg
               class="serious-nav-icon"
               viewBox="0 0 64 64"
@@ -501,12 +501,12 @@
               <path
                 d="M8 29 32 9l24 20M15 25v29h34V25M26 54V37h12v17"
               /></svg></span
-          ><span class="safe-label">CardÃ¡pio</span
-          ><span class="sensitive-label">InÃ­cio</span>
+          ><span class="safe-label">Cardápio</span
+          ><span class="sensitive-label">Início</span>
         </button>
         <button class="nav" data-screen="order" onclick="show('order')">
           <span class="nav-icon"
-            ><span class="safe-nav-icon">ðŸ§º</span
+            ><span class="safe-nav-icon">🧺</span
             ><svg
               class="serious-nav-icon"
               viewBox="0 0 64 64"
@@ -518,7 +518,7 @@
         </button>
         <button class="nav" data-screen="units" onclick="show('units')">
           <span class="nav-icon"
-            ><span class="safe-nav-icon">ðŸ“¡</span
+            ><span class="safe-nav-icon">📡</span
             ><svg
               class="serious-nav-icon"
               viewBox="0 0 64 64"
@@ -534,7 +534,7 @@
         </button>
         <button class="nav" data-screen="messages" onclick="show('messages')">
           <span class="nav-icon"
-            ><span class="safe-nav-icon">ðŸ’¬</span
+            ><span class="safe-nav-icon">💬</span
             ><svg
               class="serious-nav-icon"
               viewBox="0 0 64 64"
@@ -547,7 +547,7 @@
         </button>
         <button class="nav" data-screen="settings" onclick="show('settings')">
           <span class="nav-icon"
-            ><span class="safe-nav-icon">âš™ï¸</span
+            ><span class="safe-nav-icon">⚙️</span
             ><svg
               class="serious-nav-icon"
               viewBox="0 0 64 64"
@@ -557,14 +557,14 @@
                 d="M26 7h12l2 7 6 3 7-2 6 10-5 5v7l5 5-6 10-7-2-6 3-2 7H26l-2-7-6-3-7 2-6-10 5-5v-7l-5-5 6-10 7 2 6-3 2-7Z"
               />
               <circle cx="32" cy="33" r="9" /></svg></span
-          ><span class="safe-label">ConfiguraÃ§Ãµes</span
-          ><span class="sensitive-label">ConfiguraÃ§Ãµes</span>
+          ><span class="safe-label">Configurações</span
+          ><span class="sensitive-label">Configurações</span>
         </button>
       </nav>
       <div class="toast" id="toast" role="status"></div>
       <div class="lockscreen" id="lockscreen">
         <div class="lockbox">
-          <div class="emoji">ðŸ«ðŸ”’</div>
+          <div class="emoji">🫐🔒</div>
           <h2>Bem-vindo!</h2>
           <p>Digite sua senha para continuar.</p>
           <input

@@ -1,4 +1,4 @@
-﻿const CENSOR_KEY = "pdm_censorship_enabled_v2",
+const CENSOR_KEY = "pdm_censorship_enabled_v2",
   PASS_KEY = "pdm_entry_password",
   GATE_KEY = "pdm_password_gate";
 function censorshipEnabled() {
@@ -56,7 +56,7 @@ function submitHelp(e) {
   document.getElementById("reportMessage").classList.remove("hidden");
   document.getElementById("chatInput").value = "";
   show("messages");
-  toast("Relato adicionado Ã  conversa de demonstraÃ§Ã£o.");
+  toast("Relato adicionado à conversa de demonstração.");
 }
 function filterPlaces(kind, button) {
   document
@@ -79,17 +79,17 @@ function sendChatMessage(e) {
   const bubble = document.createElement("div");
   bubble.className = "chat-bubble sent";
   const strong = document.createElement("strong");
-  strong.textContent = "VocÃª";
+  strong.textContent = "Você";
   const p = document.createElement("p");
   p.textContent = value;
   const small = document.createElement("small");
-  small.textContent = "Agora Â· mensagem local";
+  small.textContent = "Agora · mensagem local";
   bubble.append(strong, p, small);
   document.getElementById("chatWindow").appendChild(bubble);
   input.value = "";
   document.getElementById("chatWindow").scrollTop =
     document.getElementById("chatWindow").scrollHeight;
-  toast("Mensagem adicionada Ã  conversa neste protÃ³tipo.");
+  toast("Mensagem adicionada à conversa neste protótipo.");
 }
 function quickExit() {
   location.replace("https://www.google.com");
@@ -122,7 +122,7 @@ function savePassword() {
     return;
   }
   if (a !== b) {
-    toast("As senhas nÃ£o coincidem.");
+    toast("As senhas não coincidem.");
     return;
   }
   localStorage.setItem(PASS_KEY, a);

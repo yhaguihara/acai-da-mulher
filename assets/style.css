@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --cream: #f5eafb;
   --paper: #fffaff;
   --brown: #35164f;
@@ -52,7 +52,8 @@ button {
   color: var(--brown);
 }
 .gear {
-  font-size: 23px;
+  position: relative;
+  z-index: 2;
 }
 .brand {
   text-align: center;
